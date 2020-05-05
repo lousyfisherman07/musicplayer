@@ -1,0 +1,50 @@
+2020-05-05T08:15:53.7193610Z ##[group]Run python -m pip install --upgrade pip
+2020-05-05T08:15:53.7193844Z [36;1mpython -m pip install --upgrade pip[0m
+2020-05-05T08:15:53.7194010Z [36;1mpip install flake8 pytest[0m
+2020-05-05T08:15:53.7194179Z [36;1mif [ -f requirements.txt ]; then pip install -r requirements.txt; fi[0m
+2020-05-05T08:15:53.7235674Z shell: /bin/bash -e {0}
+2020-05-05T08:15:53.7235900Z env:
+2020-05-05T08:15:53.7236067Z   pythonLocation: /opt/hostedtoolcache/Python/3.6.10/x64
+2020-05-05T08:15:53.7236234Z ##[endgroup]
+2020-05-05T08:15:54.5378227Z Collecting pip
+2020-05-05T08:15:54.5638260Z   Downloading pip-20.1-py2.py3-none-any.whl (1.5 MB)
+2020-05-05T08:15:54.7267863Z Installing collected packages: pip
+2020-05-05T08:15:54.7270931Z   Attempting uninstall: pip
+2020-05-05T08:15:54.7320709Z     Found existing installation: pip 20.0.2
+2020-05-05T08:15:54.8641815Z     Uninstalling pip-20.0.2:
+2020-05-05T08:15:54.8960534Z       Successfully uninstalled pip-20.0.2
+2020-05-05T08:15:55.7467661Z Successfully installed pip-20.1
+2020-05-05T08:15:56.3448983Z Collecting flake8
+2020-05-05T08:15:56.3692310Z   Downloading flake8-3.7.9-py2.py3-none-any.whl (69 kB)
+2020-05-05T08:15:56.5324374Z Collecting pytest
+2020-05-05T08:15:56.5378202Z   Downloading pytest-5.4.1-py3-none-any.whl (246 kB)
+2020-05-05T08:15:56.6170777Z Collecting pyflakes<2.2.0,>=2.1.0
+2020-05-05T08:15:56.6217572Z   Downloading pyflakes-2.1.1-py2.py3-none-any.whl (59 kB)
+2020-05-05T08:15:56.6530705Z Collecting pycodestyle<2.6.0,>=2.5.0
+2020-05-05T08:15:56.6570122Z   Downloading pycodestyle-2.5.0-py2.py3-none-any.whl (51 kB)
+2020-05-05T08:15:56.6842451Z Collecting entrypoints<0.4.0,>=0.3.0
+2020-05-05T08:15:56.6888790Z   Downloading entrypoints-0.3-py2.py3-none-any.whl (11 kB)
+2020-05-05T08:15:56.7148438Z Collecting mccabe<0.7.0,>=0.6.0
+2020-05-05T08:15:56.7360598Z   Downloading mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+2020-05-05T08:15:56.7542617Z Collecting attrs>=17.4.0
+2020-05-05T08:15:56.7587596Z   Downloading attrs-19.3.0-py2.py3-none-any.whl (39 kB)
+2020-05-05T08:15:56.8248448Z Collecting more-itertools>=4.0.0
+2020-05-05T08:15:56.8294462Z   Downloading more_itertools-8.2.0-py3-none-any.whl (43 kB)
+2020-05-05T08:15:56.8667392Z Collecting pluggy<1.0,>=0.12
+2020-05-05T08:15:56.8717015Z   Downloading pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+2020-05-05T08:15:56.9278269Z Collecting packaging
+2020-05-05T08:15:56.9328827Z   Downloading packaging-20.3-py2.py3-none-any.whl (37 kB)
+2020-05-05T08:15:56.9864273Z Collecting py>=1.5.0
+2020-05-05T08:15:56.9908411Z   Downloading py-1.8.1-py2.py3-none-any.whl (83 kB)
+2020-05-05T08:15:57.0646803Z Collecting importlib-metadata>=0.12; python_version < "3.8"
+2020-05-05T08:15:57.0689150Z   Downloading importlib_metadata-1.6.0-py2.py3-none-any.whl (30 kB)
+2020-05-05T08:15:57.1047553Z Collecting wcwidth
+2020-05-05T08:15:57.1090341Z   Downloading wcwidth-0.1.9-py2.py3-none-any.whl (19 kB)
+2020-05-05T08:15:57.1466729Z Collecting six
+2020-05-05T08:15:57.1512915Z   Downloading six-1.14.0-py2.py3-none-any.whl (10 kB)
+2020-05-05T08:15:57.2334523Z Collecting pyparsing>=2.0.2
+2020-05-05T08:15:57.2384089Z   Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+2020-05-05T08:15:57.2795967Z Collecting zipp>=0.5
+2020-05-05T08:15:57.2842491Z   Downloading zipp-3.1.0-py3-none-any.whl (4.9 kB)
+2020-05-05T08:15:57.3853130Z Installing collected packages: pyflakes, pycodestyle, entrypoints, mccabe, flake8, attrs, more-itertools, zipp, importlib-metadata, pluggy, six, pyparsing, packaging, py, wcwidth, pytest
+2020-05-05T08:15:57.9633962Z Successfully installed attrs-19.3.0 entrypoints-0.3 flake8-3.7.9 importlib-metadata-1.6.0 mccabe-0.6.1 more-itertools-8.2.0 packaging-20.3 pluggy-0.13.1 py-1.8.1 pycodestyle-2.5.0 pyflakes-2.1.1 pyparsing-2.4.7 pytest-5.4.1 six-1.14.0 wcwidth-0.1.9 zipp-3.1.0

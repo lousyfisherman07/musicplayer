@@ -1,0 +1,6 @@
+2020-05-05T08:15:52.6817954Z ##[group]Run actions/setup-python@v1
+2020-05-05T08:15:52.6818173Z with:
+2020-05-05T08:15:52.6818341Z   python-version: 3.5
+2020-05-05T08:15:52.6818501Z   architecture: x64
+2020-05-05T08:15:52.6818642Z ##[endgroup]
+2020-05-05T08:15:52.7328105Z Successfully setup CPython (3.5.9)

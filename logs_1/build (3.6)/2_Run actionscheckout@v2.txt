@@ -1,0 +1,62 @@
+2020-05-05T08:15:52.8284853Z ##[group]Run actions/checkout@v2
+2020-05-05T08:15:52.8285197Z with:
+2020-05-05T08:15:52.8285479Z   repository: lousyfisherman07/welcome-to-working-copy
+2020-05-05T08:15:52.8285797Z   token: ***
+2020-05-05T08:15:52.8285957Z   ssh-strict: true
+2020-05-05T08:15:52.8286109Z   persist-credentials: true
+2020-05-05T08:15:52.8286247Z   clean: true
+2020-05-05T08:15:52.8286396Z   fetch-depth: 1
+2020-05-05T08:15:52.8286544Z   lfs: false
+2020-05-05T08:15:52.8286694Z   submodules: false
+2020-05-05T08:15:52.8286833Z ##[endgroup]
+2020-05-05T08:15:53.6530544Z Syncing repository: lousyfisherman07/welcome-to-working-copy
+2020-05-05T08:15:53.6531247Z ##[group]Getting Git version info
+2020-05-05T08:15:53.6531878Z Working directory is '/home/runner/work/welcome-to-working-copy/welcome-to-working-copy'
+2020-05-05T08:15:53.6532440Z [command]/usr/bin/git version
+2020-05-05T08:15:53.6532626Z git version 2.26.0
+2020-05-05T08:15:53.6533243Z ##[endgroup]
+2020-05-05T08:15:53.6533746Z Deleting the contents of '/home/runner/work/welcome-to-working-copy/welcome-to-working-copy'
+2020-05-05T08:15:53.6534453Z ##[group]Initializing the repository
+2020-05-05T08:15:53.6534830Z [command]/usr/bin/git init /home/runner/work/welcome-to-working-copy/welcome-to-working-copy
+2020-05-05T08:15:53.6535215Z Initialized empty Git repository in /home/runner/work/welcome-to-working-copy/welcome-to-working-copy/.git/
+2020-05-05T08:15:53.6535635Z [command]/usr/bin/git remote add origin https://github.com/lousyfisherman07/welcome-to-working-copy
+2020-05-05T08:15:53.6535850Z ##[endgroup]
+2020-05-05T08:15:53.6536020Z ##[group]Disabling automatic garbage collection
+2020-05-05T08:15:53.6536568Z [command]/usr/bin/git config --local gc.auto 0
+2020-05-05T08:15:53.6536868Z ##[endgroup]
+2020-05-05T08:15:53.6538152Z ##[group]Setting up auth
+2020-05-05T08:15:53.6538674Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2020-05-05T08:15:53.6539258Z [command]/usr/bin/git submodule foreach --recursive git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :
+2020-05-05T08:15:53.6539823Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2020-05-05T08:15:53.6540520Z [command]/usr/bin/git submodule foreach --recursive git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :
+2020-05-05T08:15:53.6541093Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2020-05-05T08:15:53.6541437Z ##[endgroup]
+2020-05-05T08:15:53.6542110Z ##[group]Fetching the repository
+2020-05-05T08:15:53.6542749Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin +6268cb958cf2b6220cec23f02311a1c4675f30ca:refs/remotes/origin/master
+2020-05-05T08:15:53.6543080Z remote: Enumerating objects: 5, done.        
+2020-05-05T08:15:53.6543362Z remote: Counting objects:  20% (1/5)        
+2020-05-05T08:15:53.6543583Z remote: Counting objects:  40% (2/5)        
+2020-05-05T08:15:53.6543932Z remote: Counting objects:  60% (3/5)        
+2020-05-05T08:15:53.6544084Z remote: Counting objects:  80% (4/5)        
+2020-05-05T08:15:53.6544370Z remote: Counting objects: 100% (5/5)        
+2020-05-05T08:15:53.6544579Z remote: Counting objects: 100% (5/5), done.        
+2020-05-05T08:15:53.6544748Z remote: Compressing objects:  50% (1/2)        
+2020-05-05T08:15:53.6544913Z remote: Compressing objects: 100% (2/2)        
+2020-05-05T08:15:53.6545062Z remote: Compressing objects: 100% (2/2), done.        
+2020-05-05T08:15:53.6545560Z remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0        
+2020-05-05T08:15:53.6546062Z From https://github.com/lousyfisherman07/welcome-to-working-copy
+2020-05-05T08:15:53.6546574Z  * [new ref]         6268cb958cf2b6220cec23f02311a1c4675f30ca -> origin/master
+2020-05-05T08:15:53.6546903Z ##[endgroup]
+2020-05-05T08:15:53.6547096Z ##[group]Determining the checkout info
+2020-05-05T08:15:53.6547559Z ##[endgroup]
+2020-05-05T08:15:53.6547731Z ##[group]Checking out the ref
+2020-05-05T08:15:53.6548236Z [command]/usr/bin/git checkout --progress --force -B master refs/remotes/origin/master
+2020-05-05T08:15:53.6548677Z Reset branch 'master'
+2020-05-05T08:15:53.6549142Z Branch 'master' set up to track remote branch 'master' from 'origin'.
+2020-05-05T08:15:53.6549439Z ##[endgroup]
+2020-05-05T08:15:53.6549789Z [command]/usr/bin/git log -1
+2020-05-05T08:15:53.6549959Z commit 6268cb958cf2b6220cec23f02311a1c4675f30ca
+2020-05-05T08:15:53.6550251Z Author: lousyfisherman07 <64104765+lousyfisherman07@users.noreply.github.com>
+2020-05-05T08:15:53.6550823Z Date:   Tue May 5 01:15:14 2020 -0700
+2020-05-05T08:15:53.6550927Z 
+2020-05-05T08:15:53.6551221Z     Create pythonpackage.yml

@@ -1,0 +1,52 @@
+2020-05-05T08:15:52.7386776Z ##[group]Run python -m pip install --upgrade pip
+2020-05-05T08:15:52.7387019Z [36;1mpython -m pip install --upgrade pip[0m
+2020-05-05T08:15:52.7387186Z [36;1mpip install flake8 pytest[0m
+2020-05-05T08:15:52.7387341Z [36;1mif [ -f requirements.txt ]; then pip install -r requirements.txt; fi[0m
+2020-05-05T08:15:52.7428846Z shell: /bin/bash -e {0}
+2020-05-05T08:15:52.7429039Z env:
+2020-05-05T08:15:52.7429207Z   pythonLocation: /opt/hostedtoolcache/Python/3.5.9/x64
+2020-05-05T08:15:52.7429377Z ##[endgroup]
+2020-05-05T08:15:56.4636064Z Collecting pip
+2020-05-05T08:15:56.4938682Z   Downloading pip-20.1-py2.py3-none-any.whl (1.5 MB)
+2020-05-05T08:15:56.6658003Z Installing collected packages: pip
+2020-05-05T08:15:56.6661747Z   Attempting uninstall: pip
+2020-05-05T08:15:56.6664285Z     Found existing installation: pip 20.0.2
+2020-05-05T08:15:56.7760213Z     Uninstalling pip-20.0.2:
+2020-05-05T08:15:56.8011884Z       Successfully uninstalled pip-20.0.2
+2020-05-05T08:15:57.7004501Z Successfully installed pip-20.1
+2020-05-05T08:15:58.3005916Z Collecting flake8
+2020-05-05T08:15:58.3220277Z   Downloading flake8-3.7.9-py2.py3-none-any.whl (69 kB)
+2020-05-05T08:15:58.4768360Z Collecting pytest
+2020-05-05T08:15:58.4807129Z   Downloading pytest-5.4.1-py3-none-any.whl (246 kB)
+2020-05-05T08:15:58.5584853Z Collecting pycodestyle<2.6.0,>=2.5.0
+2020-05-05T08:15:58.5633690Z   Downloading pycodestyle-2.5.0-py2.py3-none-any.whl (51 kB)
+2020-05-05T08:15:58.6010291Z Collecting pyflakes<2.2.0,>=2.1.0
+2020-05-05T08:15:58.6041115Z   Downloading pyflakes-2.1.1-py2.py3-none-any.whl (59 kB)
+2020-05-05T08:15:58.6369790Z Collecting mccabe<0.7.0,>=0.6.0
+2020-05-05T08:15:58.6407815Z   Downloading mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+2020-05-05T08:15:58.6634212Z Collecting entrypoints<0.4.0,>=0.3.0
+2020-05-05T08:15:58.6679446Z   Downloading entrypoints-0.3-py2.py3-none-any.whl (11 kB)
+2020-05-05T08:15:58.7137430Z Collecting py>=1.5.0
+2020-05-05T08:15:58.7189215Z   Downloading py-1.8.1-py2.py3-none-any.whl (83 kB)
+2020-05-05T08:15:58.7516075Z Collecting pathlib2>=2.2.0; python_version < "3.6"
+2020-05-05T08:15:58.7557918Z   Downloading pathlib2-2.3.5-py2.py3-none-any.whl (18 kB)
+2020-05-05T08:15:58.8193001Z Collecting importlib-metadata>=0.12; python_version < "3.8"
+2020-05-05T08:15:58.8239168Z   Downloading importlib_metadata-1.6.0-py2.py3-none-any.whl (30 kB)
+2020-05-05T08:15:58.8681206Z Collecting attrs>=17.4.0
+2020-05-05T08:15:58.8724131Z   Downloading attrs-19.3.0-py2.py3-none-any.whl (39 kB)
+2020-05-05T08:15:58.9431502Z Collecting packaging
+2020-05-05T08:15:58.9474135Z   Downloading packaging-20.3-py2.py3-none-any.whl (37 kB)
+2020-05-05T08:15:58.9906180Z Collecting more-itertools>=4.0.0
+2020-05-05T08:15:58.9947845Z   Downloading more_itertools-8.2.0-py3-none-any.whl (43 kB)
+2020-05-05T08:15:59.0234572Z Collecting wcwidth
+2020-05-05T08:15:59.0275609Z   Downloading wcwidth-0.1.9-py2.py3-none-any.whl (19 kB)
+2020-05-05T08:15:59.0646113Z Collecting pluggy<1.0,>=0.12
+2020-05-05T08:15:59.0692631Z   Downloading pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+2020-05-05T08:15:59.1136135Z Collecting six
+2020-05-05T08:15:59.1159005Z   Downloading six-1.14.0-py2.py3-none-any.whl (10 kB)
+2020-05-05T08:15:59.1538078Z Collecting zipp>=0.5
+2020-05-05T08:15:59.1583224Z   Downloading zipp-1.2.0-py2.py3-none-any.whl (4.8 kB)
+2020-05-05T08:15:59.2483725Z Collecting pyparsing>=2.0.2
+2020-05-05T08:15:59.2522467Z   Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+2020-05-05T08:15:59.3480680Z Installing collected packages: pycodestyle, pyflakes, mccabe, entrypoints, flake8, py, six, pathlib2, zipp, importlib-metadata, attrs, pyparsing, packaging, more-itertools, wcwidth, pluggy, pytest
+2020-05-05T08:16:00.0034696Z Successfully installed attrs-19.3.0 entrypoints-0.3 flake8-3.7.9 importlib-metadata-1.6.0 mccabe-0.6.1 more-itertools-8.2.0 packaging-20.3 pathlib2-2.3.5 pluggy-0.13.1 py-1.8.1 pycodestyle-2.5.0 pyflakes-2.1.1 pyparsing-2.4.7 pytest-5.4.1 six-1.14.0 wcwidth-0.1.9 zipp-1.2.0

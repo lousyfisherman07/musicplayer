@@ -1,0 +1,11 @@
+2020-05-05T08:16:03.0714068Z ##[group]Run # stop the build if there are Python syntax errors or undefined names
+2020-05-05T08:16:03.0714344Z [36;1m# stop the build if there are Python syntax errors or undefined names[0m
+2020-05-05T08:16:03.0714484Z [36;1mflake8 . --count --select=E9,F63,F7,F82 --show-source --statistics[0m
+2020-05-05T08:16:03.0714637Z [36;1m# exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide[0m
+2020-05-05T08:16:03.0714781Z [36;1mflake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics[0m
+2020-05-05T08:16:03.0750887Z shell: /bin/bash -e {0}
+2020-05-05T08:16:03.0751023Z env:
+2020-05-05T08:16:03.0751149Z   pythonLocation: /opt/hostedtoolcache/Python/3.7.6/x64
+2020-05-05T08:16:03.0751259Z ##[endgroup]
+2020-05-05T08:16:03.6290849Z 0
+2020-05-05T08:16:03.7553688Z 0

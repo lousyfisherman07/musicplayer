@@ -1,0 +1,23 @@
+2020-05-05T08:15:38.9734378Z ##[section]Starting: Prepare job build
+2020-05-05T08:15:38.9958230Z Evaluating strategy
+2020-05-05T08:15:38.9959145Z Creating job '_3_5'
+2020-05-05T08:15:38.9959412Z Evaluating timeout
+2020-05-05T08:15:38.9959422Z Evaluating cancel timeout
+2020-05-05T08:15:38.9959428Z Evaluating continue on error
+2020-05-05T08:15:38.9959459Z Evaluating target
+2020-05-05T08:15:38.9959771Z Creating job '_3_6'
+2020-05-05T08:15:38.9959911Z Evaluating timeout
+2020-05-05T08:15:38.9959916Z Evaluating cancel timeout
+2020-05-05T08:15:38.9959920Z Evaluating continue on error
+2020-05-05T08:15:38.9959925Z Evaluating target
+2020-05-05T08:15:38.9960119Z Creating job '_3_7'
+2020-05-05T08:15:38.9960246Z Evaluating timeout
+2020-05-05T08:15:38.9960250Z Evaluating cancel timeout
+2020-05-05T08:15:38.9960254Z Evaluating continue on error
+2020-05-05T08:15:38.9960258Z Evaluating target
+2020-05-05T08:15:38.9960441Z Creating job '_3_8'
+2020-05-05T08:15:38.9960562Z Evaluating timeout
+2020-05-05T08:15:38.9960567Z Evaluating cancel timeout
+2020-05-05T08:15:38.9960570Z Evaluating continue on error
+2020-05-05T08:15:38.9960592Z Evaluating target
+2020-05-05T08:15:39.0001769Z ##[section]Finishing: Prepare job build

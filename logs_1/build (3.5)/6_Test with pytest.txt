@@ -1,0 +1,13 @@
+2020-05-05T08:16:00.4836635Z ##[group]Run pytest
+2020-05-05T08:16:00.4836894Z [36;1mpytest[0m
+2020-05-05T08:16:00.4889347Z shell: /bin/bash -e {0}
+2020-05-05T08:16:00.4889468Z env:
+2020-05-05T08:16:00.4889592Z   pythonLocation: /opt/hostedtoolcache/Python/3.5.9/x64
+2020-05-05T08:16:00.4889729Z ##[endgroup]
+2020-05-05T08:16:00.7731333Z ============================= test session starts ==============================
+2020-05-05T08:16:00.7732079Z platform linux -- Python 3.5.9, pytest-5.4.1, py-1.8.1, pluggy-0.13.1
+2020-05-05T08:16:00.7732391Z rootdir: /home/runner/work/welcome-to-working-copy/welcome-to-working-copy
+2020-05-05T08:16:00.7732509Z collected 0 items
+2020-05-05T08:16:00.7732562Z 
+2020-05-05T08:16:00.7732675Z ============================ no tests ran in 0.01s =============================
+2020-05-05T08:16:00.7975037Z ##[error]Process completed with exit code 5.

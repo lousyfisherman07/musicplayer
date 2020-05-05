@@ -1,0 +1,6 @@
+2020-05-05T08:15:59.3823677Z ##[group]Run actions/setup-python@v1
+2020-05-05T08:15:59.3823938Z with:
+2020-05-05T08:15:59.3824114Z   python-version: 3.8
+2020-05-05T08:15:59.3824328Z   architecture: x64
+2020-05-05T08:15:59.3824450Z ##[endgroup]
+2020-05-05T08:15:59.4455920Z Successfully setup CPython (3.8.2)

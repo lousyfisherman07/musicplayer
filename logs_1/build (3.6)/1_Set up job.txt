@@ -1,0 +1,15 @@
+2020-05-05T08:15:51.5032977Z Current runner version: '2.169.1'
+2020-05-05T08:15:51.5051167Z ##[group]Operating System
+2020-05-05T08:15:51.5051649Z Ubuntu
+2020-05-05T08:15:51.5051759Z 18.04.4
+2020-05-05T08:15:51.5051902Z LTS
+2020-05-05T08:15:51.5052042Z ##[endgroup]
+2020-05-05T08:15:51.5052185Z ##[group]Virtual Environment
+2020-05-05T08:15:51.5052305Z Environment: ubuntu-18.04
+2020-05-05T08:15:51.5052453Z Version: 20200406.2
+2020-05-05T08:15:51.5052667Z Included Software: https://github.com/actions/virtual-environments/blob/ubuntu18/20200406.2/images/linux/Ubuntu1804-README.md
+2020-05-05T08:15:51.5052857Z ##[endgroup]
+2020-05-05T08:15:51.5053532Z Prepare workflow directory
+2020-05-05T08:15:51.5228375Z Prepare all required actions
+2020-05-05T08:15:51.5237027Z Download action repository 'actions/checkout@v2'
+2020-05-05T08:15:51.8939848Z Download action repository 'actions/setup-python@v1'

@@ -1,0 +1,173 @@
+2020-05-05T08:15:39.4015869Z ##[section]Starting: Request a runner to run this job
+2020-05-05T08:15:40.4077653Z Requesting a hosted runner in current repository's account/organization with labels: 'ubuntu-latest', require runner match: True
+2020-05-05T08:15:42.7725288Z Labels matched hosted runners has been found, waiting for one of them get assigned for this job.
+2020-05-05T08:15:42.8404104Z ##[section]Finishing: Request a runner to run this job
+2020-05-05T08:15:49.6169519Z Current runner version: '2.169.1'
+2020-05-05T08:15:49.6191819Z ##[group]Operating System
+2020-05-05T08:15:49.6192417Z Ubuntu
+2020-05-05T08:15:49.6192644Z 18.04.4
+2020-05-05T08:15:49.6192786Z LTS
+2020-05-05T08:15:49.6192973Z ##[endgroup]
+2020-05-05T08:15:49.6193164Z ##[group]Virtual Environment
+2020-05-05T08:15:49.6193378Z Environment: ubuntu-18.04
+2020-05-05T08:15:49.6193520Z Version: 20200406.2
+2020-05-05T08:15:49.6193843Z Included Software: https://github.com/actions/virtual-environments/blob/ubuntu18/20200406.2/images/linux/Ubuntu1804-README.md
+2020-05-05T08:15:49.6194087Z ##[endgroup]
+2020-05-05T08:15:49.6195243Z Prepare workflow directory
+2020-05-05T08:15:49.6384823Z Prepare all required actions
+2020-05-05T08:15:49.6397361Z Download action repository 'actions/checkout@v2'
+2020-05-05T08:15:51.6508651Z Download action repository 'actions/setup-python@v1'
+2020-05-05T08:15:51.7940164Z ##[group]Run actions/checkout@v2
+2020-05-05T08:15:51.7940475Z with:
+2020-05-05T08:15:51.7940764Z   repository: lousyfisherman07/welcome-to-working-copy
+2020-05-05T08:15:51.7941095Z   token: ***
+2020-05-05T08:15:51.7941259Z   ssh-strict: true
+2020-05-05T08:15:51.7941421Z   persist-credentials: true
+2020-05-05T08:15:51.7941580Z   clean: true
+2020-05-05T08:15:51.7941719Z   fetch-depth: 1
+2020-05-05T08:15:51.7941874Z   lfs: false
+2020-05-05T08:15:51.7942029Z   submodules: false
+2020-05-05T08:15:51.7942184Z ##[endgroup]
+2020-05-05T08:15:52.6303497Z Syncing repository: lousyfisherman07/welcome-to-working-copy
+2020-05-05T08:15:52.6303949Z ##[group]Getting Git version info
+2020-05-05T08:15:52.6304451Z Working directory is '/home/runner/work/welcome-to-working-copy/welcome-to-working-copy'
+2020-05-05T08:15:52.6304682Z [command]/usr/bin/git version
+2020-05-05T08:15:52.6304856Z git version 2.26.0
+2020-05-05T08:15:52.6305544Z ##[endgroup]
+2020-05-05T08:15:52.6306061Z Deleting the contents of '/home/runner/work/welcome-to-working-copy/welcome-to-working-copy'
+2020-05-05T08:15:52.6306626Z ##[group]Initializing the repository
+2020-05-05T08:15:52.6306963Z [command]/usr/bin/git init /home/runner/work/welcome-to-working-copy/welcome-to-working-copy
+2020-05-05T08:15:52.6307408Z Initialized empty Git repository in /home/runner/work/welcome-to-working-copy/welcome-to-working-copy/.git/
+2020-05-05T08:15:52.6307728Z [command]/usr/bin/git remote add origin https://github.com/lousyfisherman07/welcome-to-working-copy
+2020-05-05T08:15:52.6307890Z ##[endgroup]
+2020-05-05T08:15:52.6308021Z ##[group]Disabling automatic garbage collection
+2020-05-05T08:15:52.6308253Z [command]/usr/bin/git config --local gc.auto 0
+2020-05-05T08:15:52.6308386Z ##[endgroup]
+2020-05-05T08:15:52.6309186Z ##[group]Setting up auth
+2020-05-05T08:15:52.6309465Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2020-05-05T08:15:52.6309819Z [command]/usr/bin/git submodule foreach --recursive git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :
+2020-05-05T08:15:52.6310297Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2020-05-05T08:15:52.6310778Z [command]/usr/bin/git submodule foreach --recursive git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :
+2020-05-05T08:15:52.6311530Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2020-05-05T08:15:52.6311756Z ##[endgroup]
+2020-05-05T08:15:52.6311920Z ##[group]Fetching the repository
+2020-05-05T08:15:52.6312436Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin +6268cb958cf2b6220cec23f02311a1c4675f30ca:refs/remotes/origin/master
+2020-05-05T08:15:52.6312654Z remote: Enumerating objects: 5, done.        
+2020-05-05T08:15:52.6312841Z remote: Counting objects:  20% (1/5)        
+2020-05-05T08:15:52.6313018Z remote: Counting objects:  40% (2/5)        
+2020-05-05T08:15:52.6313358Z remote: Counting objects:  60% (3/5)        
+2020-05-05T08:15:52.6313517Z remote: Counting objects:  80% (4/5)        
+2020-05-05T08:15:52.6313690Z remote: Counting objects: 100% (5/5)        
+2020-05-05T08:15:52.6313861Z remote: Counting objects: 100% (5/5), done.        
+2020-05-05T08:15:52.6314036Z remote: Compressing objects:  50% (1/2)        
+2020-05-05T08:15:52.6314194Z remote: Compressing objects: 100% (2/2)        
+2020-05-05T08:15:52.6314497Z remote: Compressing objects: 100% (2/2), done.        
+2020-05-05T08:15:52.6314896Z remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0        
+2020-05-05T08:15:52.6593945Z From https://github.com/lousyfisherman07/welcome-to-working-copy
+2020-05-05T08:15:52.6594516Z  * [new ref]         6268cb958cf2b6220cec23f02311a1c4675f30ca -> origin/master
+2020-05-05T08:15:52.6617350Z ##[endgroup]
+2020-05-05T08:15:52.6618088Z ##[group]Determining the checkout info
+2020-05-05T08:15:52.6620393Z ##[endgroup]
+2020-05-05T08:15:52.6620551Z ##[group]Checking out the ref
+2020-05-05T08:15:52.6624379Z [command]/usr/bin/git checkout --progress --force -B master refs/remotes/origin/master
+2020-05-05T08:15:52.6680450Z Reset branch 'master'
+2020-05-05T08:15:52.6681410Z Branch 'master' set up to track remote branch 'master' from 'origin'.
+2020-05-05T08:15:52.6682894Z ##[endgroup]
+2020-05-05T08:15:52.6687306Z [command]/usr/bin/git log -1
+2020-05-05T08:15:52.6720401Z commit 6268cb958cf2b6220cec23f02311a1c4675f30ca
+2020-05-05T08:15:52.6720947Z Author: lousyfisherman07 <64104765+lousyfisherman07@users.noreply.github.com>
+2020-05-05T08:15:52.6721576Z Date:   Tue May 5 01:15:14 2020 -0700
+2020-05-05T08:15:52.6721802Z 
+2020-05-05T08:15:52.6722036Z     Create pythonpackage.yml
+2020-05-05T08:15:52.6817977Z ##[group]Run actions/setup-python@v1
+2020-05-05T08:15:52.6818181Z with:
+2020-05-05T08:15:52.6818349Z   python-version: 3.5
+2020-05-05T08:15:52.6818508Z   architecture: x64
+2020-05-05T08:15:52.6818648Z ##[endgroup]
+2020-05-05T08:15:52.7328162Z Successfully setup CPython (3.5.9)
+2020-05-05T08:15:52.7386807Z ##[group]Run python -m pip install --upgrade pip
+2020-05-05T08:15:52.7387027Z [36;1mpython -m pip install --upgrade pip[0m
+2020-05-05T08:15:52.7387192Z [36;1mpip install flake8 pytest[0m
+2020-05-05T08:15:52.7387348Z [36;1mif [ -f requirements.txt ]; then pip install -r requirements.txt; fi[0m
+2020-05-05T08:15:52.7428874Z shell: /bin/bash -e {0}
+2020-05-05T08:15:52.7429062Z env:
+2020-05-05T08:15:52.7429215Z   pythonLocation: /opt/hostedtoolcache/Python/3.5.9/x64
+2020-05-05T08:15:52.7429384Z ##[endgroup]
+2020-05-05T08:15:56.4636442Z Collecting pip
+2020-05-05T08:15:56.4939207Z   Downloading pip-20.1-py2.py3-none-any.whl (1.5 MB)
+2020-05-05T08:15:56.6658287Z Installing collected packages: pip
+2020-05-05T08:15:56.6662106Z   Attempting uninstall: pip
+2020-05-05T08:15:56.6664579Z     Found existing installation: pip 20.0.2
+2020-05-05T08:15:56.7760593Z     Uninstalling pip-20.0.2:
+2020-05-05T08:15:56.8012151Z       Successfully uninstalled pip-20.0.2
+2020-05-05T08:15:57.7005037Z Successfully installed pip-20.1
+2020-05-05T08:15:58.3006275Z Collecting flake8
+2020-05-05T08:15:58.3220487Z   Downloading flake8-3.7.9-py2.py3-none-any.whl (69 kB)
+2020-05-05T08:15:58.4779593Z Collecting pytest
+2020-05-05T08:15:58.4807223Z   Downloading pytest-5.4.1-py3-none-any.whl (246 kB)
+2020-05-05T08:15:58.5584974Z Collecting pycodestyle<2.6.0,>=2.5.0
+2020-05-05T08:15:58.5633775Z   Downloading pycodestyle-2.5.0-py2.py3-none-any.whl (51 kB)
+2020-05-05T08:15:58.6010451Z Collecting pyflakes<2.2.0,>=2.1.0
+2020-05-05T08:15:58.6041136Z   Downloading pyflakes-2.1.1-py2.py3-none-any.whl (59 kB)
+2020-05-05T08:15:58.6369808Z Collecting mccabe<0.7.0,>=0.6.0
+2020-05-05T08:15:58.6407838Z   Downloading mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+2020-05-05T08:15:58.6634257Z Collecting entrypoints<0.4.0,>=0.3.0
+2020-05-05T08:15:58.6679483Z   Downloading entrypoints-0.3-py2.py3-none-any.whl (11 kB)
+2020-05-05T08:15:58.7137484Z Collecting py>=1.5.0
+2020-05-05T08:15:58.7189313Z   Downloading py-1.8.1-py2.py3-none-any.whl (83 kB)
+2020-05-05T08:15:58.7516101Z Collecting pathlib2>=2.2.0; python_version < "3.6"
+2020-05-05T08:15:58.7557940Z   Downloading pathlib2-2.3.5-py2.py3-none-any.whl (18 kB)
+2020-05-05T08:15:58.8193037Z Collecting importlib-metadata>=0.12; python_version < "3.8"
+2020-05-05T08:15:58.8239204Z   Downloading importlib_metadata-1.6.0-py2.py3-none-any.whl (30 kB)
+2020-05-05T08:15:58.8681235Z Collecting attrs>=17.4.0
+2020-05-05T08:15:58.8724154Z   Downloading attrs-19.3.0-py2.py3-none-any.whl (39 kB)
+2020-05-05T08:15:58.9431537Z Collecting packaging
+2020-05-05T08:15:58.9474158Z   Downloading packaging-20.3-py2.py3-none-any.whl (37 kB)
+2020-05-05T08:15:58.9906219Z Collecting more-itertools>=4.0.0
+2020-05-05T08:15:58.9947880Z   Downloading more_itertools-8.2.0-py3-none-any.whl (43 kB)
+2020-05-05T08:15:59.0234605Z Collecting wcwidth
+2020-05-05T08:15:59.0275626Z   Downloading wcwidth-0.1.9-py2.py3-none-any.whl (19 kB)
+2020-05-05T08:15:59.0646158Z Collecting pluggy<1.0,>=0.12
+2020-05-05T08:15:59.0692817Z   Downloading pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+2020-05-05T08:15:59.1136166Z Collecting six
+2020-05-05T08:15:59.1159027Z   Downloading six-1.14.0-py2.py3-none-any.whl (10 kB)
+2020-05-05T08:15:59.1538110Z Collecting zipp>=0.5
+2020-05-05T08:15:59.1583245Z   Downloading zipp-1.2.0-py2.py3-none-any.whl (4.8 kB)
+2020-05-05T08:15:59.2483763Z Collecting pyparsing>=2.0.2
+2020-05-05T08:15:59.2522492Z   Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+2020-05-05T08:15:59.3480727Z Installing collected packages: pycodestyle, pyflakes, mccabe, entrypoints, flake8, py, six, pathlib2, zipp, importlib-metadata, attrs, pyparsing, packaging, more-itertools, wcwidth, pluggy, pytest
+2020-05-05T08:16:00.0034741Z Successfully installed attrs-19.3.0 entrypoints-0.3 flake8-3.7.9 importlib-metadata-1.6.0 mccabe-0.6.1 more-itertools-8.2.0 packaging-20.3 pathlib2-2.3.5 pluggy-0.13.1 py-1.8.1 pycodestyle-2.5.0 pyflakes-2.1.1 pyparsing-2.4.7 pytest-5.4.1 six-1.14.0 wcwidth-0.1.9 zipp-1.2.0
+2020-05-05T08:16:00.0849490Z ##[group]Run # stop the build if there are Python syntax errors or undefined names
+2020-05-05T08:16:00.0849851Z [36;1m# stop the build if there are Python syntax errors or undefined names[0m
+2020-05-05T08:16:00.0850024Z [36;1mflake8 . --count --select=E9,F63,F7,F82 --show-source --statistics[0m
+2020-05-05T08:16:00.0850195Z [36;1m# exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide[0m
+2020-05-05T08:16:00.0850375Z [36;1mflake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics[0m
+2020-05-05T08:16:00.0901638Z shell: /bin/bash -e {0}
+2020-05-05T08:16:00.0901798Z env:
+2020-05-05T08:16:00.0901935Z   pythonLocation: /opt/hostedtoolcache/Python/3.5.9/x64
+2020-05-05T08:16:00.0902084Z ##[endgroup]
+2020-05-05T08:16:00.3273178Z 0
+2020-05-05T08:16:00.4643505Z 0
+2020-05-05T08:16:00.4836664Z ##[group]Run pytest
+2020-05-05T08:16:00.4836902Z [36;1mpytest[0m
+2020-05-05T08:16:00.4889360Z shell: /bin/bash -e {0}
+2020-05-05T08:16:00.4889472Z env:
+2020-05-05T08:16:00.4889598Z   pythonLocation: /opt/hostedtoolcache/Python/3.5.9/x64
+2020-05-05T08:16:00.4889734Z ##[endgroup]
+2020-05-05T08:16:00.7731360Z ============================= test session starts ==============================
+2020-05-05T08:16:00.7732086Z platform linux -- Python 3.5.9, pytest-5.4.1, py-1.8.1, pluggy-0.13.1
+2020-05-05T08:16:00.7732398Z rootdir: /home/runner/work/welcome-to-working-copy/welcome-to-working-copy
+2020-05-05T08:16:00.7732514Z collected 0 items
+2020-05-05T08:16:00.7732567Z 
+2020-05-05T08:16:00.7732681Z ============================ no tests ran in 0.01s =============================
+2020-05-05T08:16:00.7975060Z ##[error]Process completed with exit code 5.
+2020-05-05T08:16:00.8026831Z Post job cleanup.
+2020-05-05T08:16:00.9019704Z [command]/usr/bin/git version
+2020-05-05T08:16:00.9082404Z git version 2.26.0
+2020-05-05T08:16:00.9114586Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2020-05-05T08:16:00.9155576Z [command]/usr/bin/git submodule foreach --recursive git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :
+2020-05-05T08:16:00.9441163Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2020-05-05T08:16:00.9482281Z http.https://github.com/.extraheader
+2020-05-05T08:16:00.9483378Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2020-05-05T08:16:00.9519831Z [command]/usr/bin/git submodule foreach --recursive git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :
+2020-05-05T08:16:00.9801060Z Cleaning up orphan processes
