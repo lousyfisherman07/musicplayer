@@ -1,0 +1,56 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{-561, -240}, {459, 761}}",
+        "class" : "DatePicker",
+        "attributes" : {
+          "uuid" : "217D1F8F-345C-44ED-85F1-259A38BB65C5",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.380790,0.307304,0.729848,1.000000)",
+          "frame" : "{{-41, 15}, {320, 216}}",
+          "tint_color" : "RGBA(0.391304,0.263158,1.000000,1.000000)",
+          "border_width" : 10,
+          "border_color" : "RGBA(0.116099,0.735294,0.169942,1.000000)",
+          "action" : "Calender",
+          "mode" : 2,
+          "alpha" : 1,
+          "class" : "DatePicker",
+          "name" : "calender"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{87, -184}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "on view time, off no time",
+          "tint_color" : "RGBA(0.000000,0.600218,0.052193,1.000000)",
+          "frame" : "{{94, 107}, {51, 31}}",
+          "class" : "Switch",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "value" : true,
+          "uuid" : "C4F28A6C-F079-45EF-9A41-B634FFA10283",
+          "name" : "switch1"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {239, 245}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
