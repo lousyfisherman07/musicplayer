@@ -21,13 +21,13 @@
           "class" : "DatePicker",
           "name" : "calender"
         },
-        "selected" : false
+        "selected" : true
       },
       {
         "nodes" : [
 
         ],
-        "frame" : "{{87, -184}, {51, 31}}",
+        "frame" : "{{-80, -78}, {51, 31}}",
         "class" : "Switch",
         "attributes" : {
           "action" : "on view time, off no time",
